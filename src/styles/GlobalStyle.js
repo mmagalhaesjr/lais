@@ -36,19 +36,6 @@ const GlobalStyle = createGlobalStyle`
         display: block;
     }
 
-/* @font-face {
-    font-family: 'marjorieMediu';
-    src: url('fonts/NeueHaasDisplayMediu.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'marjorieLigth';
-    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
 
 
 
