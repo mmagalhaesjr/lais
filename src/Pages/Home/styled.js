@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 
 export const StyledHome = styled.main`
@@ -124,7 +124,7 @@ export const StyledHome = styled.main`
             opacity: 0;
         }
         to {
-            transform: translateX(0);
+            /* transform: translateX(0); */
             opacity: 1;
         }
     }
@@ -135,20 +135,43 @@ export const StyledHome = styled.main`
             opacity: 0;
         }
         to {
-            transform: translateX(0);
+            /* transform: translateX(0); */
             opacity: 1;
         }
     }
 
     /* Aplicando animações */
-    #img1, #img3, #img5, #img7, #img9 {
-        animation: fromLeft 2s ease-out forwards;
+    #img1 {
+        animation: fromLeft 2s ;
+    }
+    #img3{
+        animation: fromLeft 4s ;
+    }
+   #img5{
+        animation: fromLeft 2s ;
+    }
+    #img7{
+        animation: fromLeft 4s ;
+    }
+    #img9{
+        animation: fromLeft 2s ;
     }
 
-    #img2, #img4, #img6, #img8 {
-        animation: fromRight 2s ease-out forwards;
-    }
 
+
+    #img2 {
+        animation: fromRight 4s ;
+    }
+    #img4 {
+        animation: fromRight 2s ;
+    }
+   #img6{
+        animation: fromRight 4s ;
+    }  
+    #img8 {
+        animation: fromRight 2s ;
+    }
+    /* animation: fromRight 5s ease-out forwards; */
 
 
 

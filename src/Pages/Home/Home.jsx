@@ -1,15 +1,15 @@
 
 import { StyledHome } from "./styled";
 
-import foto1 from '../../assets/1.png'
-import foto2 from '../../assets/2.png'
-import foto3 from '../../assets/3.png'
-import foto4 from '../../assets/4.png'
-import foto5 from '../../assets/5.png'
-import foto6 from '../../assets/6.png'
-import foto7 from '../../assets/7.png'
+import foto1 from '../../assets/inicial/1.png'
+import foto2 from '../../assets/inicial/2.png'
+import foto3 from '../../assets/inicial/3.png'
+import foto4 from '../../assets/inicial/4.png'
+import foto5 from '../../assets/inicial/5.png'
+import foto6 from '../../assets/inicial/6.png'
+import foto7 from '../../assets/inicial/7.png'
 
-import foto9 from '../../assets/9.png'
+import foto9 from '../../assets/inicial/9.png'
 import { Link } from "react-router-dom";
 
 
