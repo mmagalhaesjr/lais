@@ -10,6 +10,8 @@ import foto6 from '../../assets/6.png'
 import foto7 from '../../assets/7.png'
 
 import foto9 from '../../assets/9.png'
+import { Link } from "react-router-dom";
+
 
 
 export default function Home() {
@@ -28,18 +30,24 @@ export default function Home() {
                 <img id="img5" src={foto5} alt="img" />
                 <img id="img6" src={foto6} alt="img" />
                 <img id="img7" src={foto7} alt="img" />
-                
+
                 <img id="img9" src={foto9} alt="img" />
             </section>
 
 
             <div id="rodape">
-                <p>
-                    Projetos
-                </p>
-                <p>
-                    Contato
-                </p>
+                <Link to={'/projetos'}>
+                    <p>
+                        Projetos
+                    </p>
+                </Link>
+
+                <Link to={"/contato"}>
+                    <p>
+                        Contato
+                    </p>
+                </Link>
+
             </div>
 
 

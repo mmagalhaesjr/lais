@@ -24,12 +24,7 @@ const GlobalStyle = createGlobalStyle`
        
        
     }
-  
-    html{
-    scroll-behavior: smooth;
-    
-    
-}
+
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
@@ -37,18 +32,22 @@ const GlobalStyle = createGlobalStyle`
     }
 
 
-
-
-    body {
-     
-        line-height: 1;
+    html, body {
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
         width: 100%;
+        height: 100%;
+        line-height: 1;
         font-optical-sizing: auto;
         /* border: solid 5px #080808; */
         overflow: hidden;
         font-family: "Inter", sans-serif;
-
     }
+
+
+
+  
 
     
     /* ol, ul {

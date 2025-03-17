@@ -101,6 +101,7 @@ export const StyledHome = styled.main`
     #rodape p{
         font-size: 2rem;
         cursor: pointer;
+        color: #000000;
     }
 
  
