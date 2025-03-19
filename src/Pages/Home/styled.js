@@ -1,256 +1,176 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const StyledHome = styled.main`
-    width: 100%;
-    height: 100vh;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100px;
+  }
+
+  h1 {
+    position: fixed;
+    top: 50px;
+    font-size: 10rem;
+    z-index: 0;
+  }
+
+  section {
+    width: 100%;
+    height: 100px;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
 
-    img{
-        width: 100px;
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      visibility: hidden;
     }
-    h1{
-        position: fixed;
-        top: 50px;
-        font-size: 10rem;
-        z-index: 0;
-    }
-    section{
-        width: 100%;
-        height: 100px;
-       
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #img1{
-        position: absolute;
-        top: 45%;
-        left: 5%;
-        width: 17%;
-        z-index: 9;
-    }
-    #img2{
-        position: absolute;
-        top: 25%;
-        left: 20%;
-        width: 16%;
-        z-index: 8;
-    }
-
-    #img3{
-        position: absolute;
-        top: 50%;
-        left: 35%;
-        width: 20%;
-        z-index: 9;
-    }
-
-    #img4{
-        position: absolute;
-        top: 30%;
-        left: 33%;
-        width: 20%;
-        z-index: 6;
-    }
-
-    #img5{
-        position: absolute;
-        top: 30%;
-        left: 45%;
-        width: 20%;
-       
-        z-index: 7;
-    }
-    #img6{
-        position: absolute;
-        top: 45%;
-        left: 55%;
-        width: 17%;
-        z-index: 6;
-    }
-    #img7{
-        position: absolute;
-        top: 30%;
-        left: 70%;
-        width: 17%;
-        z-index: 5;
-    }
-    #img8{
-        position: absolute;
-        top: 45%;
-        right: 10%;
-        width: 25%;
-        height: 250px;
-        z-index: 1;
-    }
-    #img9{
-        position: absolute;
-        top: 20%;
-        right: 2%;
-        width: 17%;
-        z-index: 6;
-    }
-
-    #rodape p{
-        font-size: 2rem;
-        cursor: pointer;
-        color: #000000;
-    }
-
  
-
-    #rodape{
-        width: 90%;
-        position: absolute;
-        bottom: 50px;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    100% {
+      opacity: 1;
+      visibility: visible;
     }
+  }
 
+  /* Estilização das imagens */
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6 {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
 
-     /* ANIMAÇÕES */
-     @keyframes fromLeft {
-        from {
-            transform: translateX(-100vw);
-            opacity: 0;
-        }
-        to {
-            /* transform: translateX(0); */
-            opacity: 1;
-        }
+  #img1 {
+    top: 25%;
+    left: 35%;
+    width: 17%;
+    z-index: 1;
+    animation: aparecer 0s 1s forwards;
+  }
+
+  #img2 {
+    top: 45%;
+    left: 25%;
+    width: 16%;
+    z-index: 2;
+    animation: aparecer 0s 2s forwards;
+  }
+
+  #img3 {
+    top: 50%;
+    left: 35%;
+    width: 15%;
+    z-index: 3;
+    animation: aparecer 0s 3s forwards;
+  }
+
+  #img4 {
+    top: 30%;
+    left: 50%;
+    width: 20%;
+    z-index: 6;
+    animation: aparecer 0s 4s forwards;
+  }
+
+  #img5 {
+    top: 30%;
+    left: 50%;
+    width: 15%;
+    z-index: 7;
+    animation: aparecer 0s 5s forwards;
+  }
+
+  #img6 {
+    top: 20%;
+    left: 55%;
+    width: 20%;
+    z-index: 6;
+    animation: aparecer 0s 6s forwards;
+  }
+
+  #rodape p {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  #rodape {
+    width: 90%;
+    position: absolute;
+    bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 800px) {
+    h1 {
+      position: fixed;
+      top: 50px;
+      font-size: 5rem;
+      z-index: 0;
     }
-
-    @keyframes fromRight {
-        from {
-            transform: translateX(100vw);
-            opacity: 0;
-        }
-        to {
-            /* transform: translateX(0); */
-            opacity: 1;
-        }
-    }
-
-    /* Aplicando animações */
     #img1 {
-        animation: fromLeft 2s ;
-    }
-    #img3{
-        animation: fromLeft 4s ;
-    }
-   #img5{
-        animation: fromLeft 2s ;
-    }
-    #img7{
-        animation: fromLeft 4s ;
-    }
-    #img9{
-        animation: fromLeft 2s ;
-    }
+    top: 25%;
+    left: 35%;
+    width: 30%;
+    z-index: 1;
+    animation: aparecer 0s 1s forwards;
+  }
 
+  #img2 {
+    top: 30%;
+    left: 10%;
+    width: 30%;
+    z-index: 2;
+    animation: aparecer 0s 2s forwards;
+  }
 
+  #img3 {
+    top: 50%;
+    left: 35%;
+    width: 30%;
+    z-index: 3;
+    animation: aparecer 0s 3s forwards;
+  }
 
-    #img2 {
-        animation: fromRight 4s ;
-    }
-    #img4 {
-        animation: fromRight 2s ;
-    }
-   #img6{
-        animation: fromRight 4s ;
-    }  
-    #img8 {
-        animation: fromRight 2s ;
-    }
-    /* animation: fromRight 5s ease-out forwards; */
+  #img4 {
+    top: 40%;
+    left: 50%;
+    width: 30%;
+    z-index: 6;
+    animation: aparecer 0s 4s forwards;
+  }
 
+  #img5 {
+    top: 50%;
+    left: 20%;
+    width: 30%;
+    z-index: 7;
+    animation: aparecer 0s 5s forwards;
+  }
 
-
-    @media (max-width: 800px) {
-        h1{
-        position: fixed;
-        top: 50px;
-        font-size:5rem;
-        z-index: 0;
-    }
-    #img1{
-        position: absolute;
-        top: 25%;
-        left: 5%;
-        width: 30%;
-        z-index: 9;
-    }
-    #img2{
-        position: absolute;
-        top: 35%;
-        left: 20%;
-        width: 25%;
-        z-index: 8;
-    }
-
-    #img3{
-        position: absolute;
-        top: 50%;
-        left: 35%;
-        width: 30%;
-        z-index: 9;
-    }
-
-    #img4{
-        position: absolute;
-        top: 30%;
-        left: 33%;
-        width: 30%;
-       
-        z-index: 6;
-    }
-
-    #img5{
-        position: absolute;
-        top: 30%;
-        left: 55%;
-        width: 30%;
-       
-        z-index: 7;
-    }
-    #img6{
-        position: absolute;
-        top: 45%;
-        left: 55%;
-        width: 25%;
-        z-index: 6;
-    }
-    #img7{
-        position: absolute;
-        top:50%;
-        left:80%;
-        width: 25%;
-        z-index: 5;
-    }
-    #img8{
-        position: absolute;
-        top: 45%;
-        right: 10%;
-        width: 25%;
-        height: 250px;
-        z-index: 1;
-    }
-    #img9{
-        position: absolute;
-        top: 20%;
-        right: 0%;
-        width: 25%;
-        z-index: 6;
-    }
-    }
-
- `
+  #img6 {
+    top: 50%;
+    left: 55%;
+    width: 40%;
+    z-index: 6;
+    animation: aparecer 0s 6s forwards;
+  }
+  }
+`;

@@ -7,9 +7,7 @@ import foto3 from '../../assets/inicial/3.png'
 import foto4 from '../../assets/inicial/4.png'
 import foto5 from '../../assets/inicial/5.png'
 import foto6 from '../../assets/inicial/6.png'
-import foto7 from '../../assets/inicial/7.png'
 
-import foto9 from '../../assets/inicial/9.png'
 import { Link } from "react-router-dom";
 
 
@@ -29,9 +27,6 @@ export default function Home() {
                 <img id="img4" src={foto4} alt="img" />
                 <img id="img5" src={foto5} alt="img" />
                 <img id="img6" src={foto6} alt="img" />
-                <img id="img7" src={foto7} alt="img" />
-
-                <img id="img9" src={foto9} alt="img" />
             </section>
 
 
