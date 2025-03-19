@@ -17,7 +17,7 @@ export const StyledHome = styled.main`
   h1 {
     position: fixed;
     top: 50px;
-    font-size: 14rem;
+    font-size: 12rem;
     z-index: 0;
   }
 
