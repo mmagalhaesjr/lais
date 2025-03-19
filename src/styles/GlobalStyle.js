@@ -1,6 +1,7 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+    /* Reset CSS */
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -20,9 +21,6 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-     
-       
-       
     }
 
     /* HTML5 display-role reset for older browsers */
@@ -31,28 +29,21 @@ const GlobalStyle = createGlobalStyle`
         display: block;
     }
 
-
     html, body {
         scroll-behavior: smooth;
-        margin: 0;
-        padding: 0;
         width: 100%;
-        height: 100%;
+        min-height: 100vh;
         line-height: 1;
-        font-optical-sizing: auto;
-        /* border: solid 5px #080808; */
-        overflow: hidden;
         font-family: "Inter", sans-serif;
     }
 
+    /* Melhor compatibilidade para carregamento de fontes */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-
-  
-
-    
-    /* ol, ul {
+    /* Reset de listas */
+    ol, ul {
         list-style: none;
-    } */
+    }
 
     blockquote, q {
         quotes: none;
@@ -71,6 +62,7 @@ const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
+        color: inherit;
     }
 
     * {
@@ -78,10 +70,6 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         box-sizing: border-box;
     }
+`;
 
-
-
-    
-`
-
-export default GlobalStyle
+export default GlobalStyle;
