@@ -17,7 +17,7 @@ export const StyledHome = styled.main`
   h1 {
     position: fixed;
     top: 50px;
-    font-size: 12rem;
+    font-size: 15rem;
     z-index: 0;
   }
 
@@ -103,7 +103,7 @@ export const StyledHome = styled.main`
   }
 
   #rodape p {
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
     color: #000000;
   }
