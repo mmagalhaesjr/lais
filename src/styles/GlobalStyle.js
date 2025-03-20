@@ -37,9 +37,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: "Inter", sans-serif;
     }
 
-    /* Melhor compatibilidade para carregamento de fontes */
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
+  
     /* Reset de listas */
     ol, ul {
         list-style: none;
