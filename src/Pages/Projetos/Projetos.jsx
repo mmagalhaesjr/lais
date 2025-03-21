@@ -1,6 +1,16 @@
 import { Link } from "react-router-dom";
 import { StyledProjetos } from "./styled";
 
+import boneco from '../../assets/inicial/6.png'
+import poster from '../../assets/inicial/8.png'
+import cd from '../../assets/inicial/2.png'
+import coporosa from '../../assets/inicial/3.png'
+import copo from '../../assets/inicial/5.png'
+import jornal from '../../assets/inicial/7.png'
+import vermelho from '../../assets/inicial/9.png'
+import adesivorosa from '../../assets/inicial/10.png'
+import adesivoroxo from '../../assets/inicial/11.png'
+
 export default function Projetos() {
     return (
         <StyledProjetos>
@@ -11,40 +21,16 @@ export default function Projetos() {
                 </p>
             </Link>
 
-            <section id="containerImg"  >
-
-                <h2>"imagens"</h2>
-
-            </section>
-
-            <section id='containeTexto'>
-
-                <h2>
-                    DESIGN DE CONVITES PARA A MARCA <br></br>
-                    <span>MUSIC BOX KARAOKE STUDIO©</span>
-                </h2>
-
-                <p>
-                    Para os eventos de inauguração do Music Box, desenvolvi um convite nada
-                    convencional: um CD personalizado, trazendo um toque nostálgico e interativo à
-                    experiência dos convidados. Cada CD carrega o nome do convidado, tornando o
-                    convite único e exclusivo, reforçando a identidade da marca e a conexão com a música.
-                </p>
-
-                <p>
-                    A experiência se completa com um folheto informativo dentro do CD, onde os
-                    convidados encontram detalhes sobre o espaço, sua proposta e diferenciais. No verso,
-                    uma composição visual apresenta figuras icônicas da música, criando um material
-                    colecionável e visualmente impactante.
-                </p>
-
-                <p>
-                    Este projeto combina design, nostalgia e personalização, criando uma peça 100%
-                    autêntica, tornando a chegada ao Music Box uma experiência memorável desde o
-                    primeiro contato.
-                </p>
-
-            </section>
+        <img id="boneco" src={boneco} alt="img" />
+        <img id="poster" src={poster} alt="img" />
+        <img id="cd" src={cd} alt="img" />
+        <img id="coporosa" src={coporosa} alt="img" />
+        <img id="copo" src={copo} alt="img" />
+        <img id="jornal" src={jornal} alt="img" />
+        <img id="vermelho" src={vermelho} alt="img" />
+        <img id="adesivorosa" src={adesivorosa} alt="img" />
+        <img id="adesivoroxo" src={adesivoroxo} alt="img" />
+          
 
         </StyledProjetos>
     )

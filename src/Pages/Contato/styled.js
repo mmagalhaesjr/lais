@@ -11,13 +11,15 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-#voltar{
-    position: absolute;
-    top: 5%;
-    left: 3%;
-    color: #000000;
-}
+    
+    #voltar {
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+    }
 
 section{
     display: flex;

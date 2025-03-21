@@ -17,8 +17,9 @@ justify-content: center;
         top: 5%;
         left: 3%;
         color: #000000;
-        cursor: pointer;
-        z-index: 99;
+        font-size: 18px;
+        font-weight: bold;
+        z-index: 9;
     }
 
 #sectionFotos{
