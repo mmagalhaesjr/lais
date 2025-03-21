@@ -73,6 +73,7 @@ img{
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -80,8 +81,8 @@ img{
 .texto{
     width: 90%;
     font-size: 3rem;
-    line-height: 1.4;
-    margin-top: 10%;
+    line-height: 1.2;
+    margin-top: 3%;
    
 }
 
@@ -105,11 +106,22 @@ img{
     animation: aparecer 0s 2s forwards;
 }
 
+#sectionTexto{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
 .texto{
     width: 90%;
     font-size:1.1rem;
     line-height: 1.4;
-    margin-top: 0%;
+    margin-bottom: 3%;
    
 }
 
