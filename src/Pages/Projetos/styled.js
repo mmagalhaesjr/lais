@@ -17,8 +17,7 @@ export const StyledProjetos = styled.main`
         top: 5%;
         left: 3%;
         color: #000000;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 3rem;
     }
 
     img {

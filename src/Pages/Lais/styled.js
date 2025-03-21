@@ -16,8 +16,7 @@ justify-content: center;
         top: 5%;
         left: 3%;
         color: #000000;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 3rem;
         z-index: 9;
     }
 

@@ -17,8 +17,7 @@ display: flex;
         top: 5%;
         left: 3%;
         color: #000000;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 3rem;
     }
 
 section{
@@ -30,9 +29,11 @@ section{
 
 }
 section p{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #000000;
     margin-top: 5%;
+    padding-left: 10%;
+  
 
 }
 

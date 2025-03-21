@@ -21,9 +21,11 @@ export default function Contato() {
                     E-mail: lais.sindorf@design.ufjf.br
                 </p>
 
-                <p>
-                    Linkedin: https://www.linkedin.com/ in/lais-sindorf-8a11331a2/
-                </p>
+                <Link to={'https://www.linkedin.com/in/lais-sindorf-8a11331a2/'} target="blank">
+                    <p>
+                        Linkedin: https://www.linkedin.com/ in/lais-sindorf-8a11331a2/
+                    </p>
+                </Link>
 
             </section>
 
