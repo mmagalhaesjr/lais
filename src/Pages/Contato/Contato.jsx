@@ -6,10 +6,26 @@ export default function Contato() {
         <StyledContato>
 
             <Link to={"/"}>
-                <p>
+                <p id="voltar">
                     &lt; Voltar
                 </p>
             </Link>
+
+            <section>
+
+                <p>
+                    Telefone: (24) 98836-1233
+                </p>
+
+                <p>
+                    E-mail: lais.sindorf@design.ufjf.br
+                </p>
+
+                <p>
+                    Linkedin: https://www.linkedin.com/ in/lais-sindorf-8a11331a2/
+                </p>
+
+            </section>
 
         </StyledContato>
     )

@@ -18,7 +18,9 @@ export default function Home() {
     return (
         <StyledHome>
 
-            <h1>LAIS SINDORF</h1>
+            <Link to={'/lais'}>
+                <h1>LAIS SINDORF</h1>
+            </Link>
 
             <section>
                 <img id="img1" src={foto1} alt="img" />

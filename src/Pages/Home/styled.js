@@ -15,10 +15,15 @@ export const StyledHome = styled.main`
   }
 
   h1 {
+    width: 100%;
     position: fixed;
     top: 50px;
+    left: 0;
     font-size: 18rem;
     z-index: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
   }
 
   section {
@@ -97,7 +102,7 @@ export const StyledHome = styled.main`
   #img6 {
     top: 20%;
     left: 55%;
-    width: 20%;
+    width: 30%;
     z-index: 6;
     animation: aparecer 0s 6s forwards;
   }
