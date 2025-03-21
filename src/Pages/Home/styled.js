@@ -107,14 +107,8 @@ export const StyledHome = styled.main`
     animation: aparecer 0s 6s forwards;
   }
 
-  #rodape p {
-    font-size: 4rem;
-    cursor: pointer;
-    color: #000000;
-  }
-
   #rodape {
-    width: 90%;
+    width: 95%;
     position: absolute;
     bottom: 50px;
 
@@ -122,6 +116,15 @@ export const StyledHome = styled.main`
     align-items: center;
     justify-content: space-between;
   }
+
+  #rodape p {
+    font-size: 5rem;
+    cursor: pointer;
+    color: #000000;
+
+  }
+
+ 
 
   @media (max-width: 800px) {
     h1 {

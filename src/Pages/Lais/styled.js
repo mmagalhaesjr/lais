@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const StyledLais = styled.main`
 
 width: 100%;
-height: 100vh;
 position: relative;
 
 display: flex;
@@ -33,17 +32,17 @@ justify-content: center;
 }
 
 img{
-    width: 20%;
+    width: 30%;
 }
 #imgP{
     position: absolute;
     top: 10%;
-    left: 33%;
+    left: 22%;
     animation: aparecer 0s .5s forwards;
 }#imgG{
     position: absolute;
     top: 20%;
-    right: 30%;
+    right: 22%;
     animation: aparecer 0s 1.5s forwards;
 }
 
@@ -80,8 +79,8 @@ img{
 }
 
 .texto{
-    width: 40%;
-    font-size: 1.5rem;
+    width: 90%;
+    font-size: 3rem;
     line-height: 1.4;
     margin-top: 10%;
    
