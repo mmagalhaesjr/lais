@@ -17,7 +17,7 @@ export const StyledProjetos = styled.main`
         top: 5%;
         left: 3%;
         color: #000000;
-        font-size: 18px;
+        font-size: 2rem;
         font-weight: bold;
     }
 
@@ -31,7 +31,7 @@ export const StyledProjetos = styled.main`
     #poster { width:15%; top: 15%; left: 5%; }
     #cd { width:15%; top: 10%; right: 5%; }
     #coporosa { width:15%; top: 5%; left: 40%; }
-    #copo {width:20%; top: 30%; left: 60%; }
+    #copo {width:20%; top: 30%; left: 50%; }
     #jornal {width:15%; top: 30%; left: 25%; }
     #vermelho {width:35%; top: 95%; right: 15%; }
     #adesivorosa {width:15%; top: 55%; right: 5%; }

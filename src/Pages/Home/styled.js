@@ -92,9 +92,9 @@ export const StyledHome = styled.main`
   }
 
   #img5 {
-    top: 30%;
-    left: 50%;
-    width: 15%;
+    top: 40%;
+    left: 45%;
+    width: 20%;
     z-index: 7;
     animation: aparecer 0s 5s forwards;
   }

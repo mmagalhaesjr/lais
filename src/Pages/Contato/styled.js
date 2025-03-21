@@ -17,20 +17,23 @@ display: flex;
         top: 5%;
         left: 3%;
         color: #000000;
-        font-size: 18px;
+        font-size: 2rem;
         font-weight: bold;
     }
 
 section{
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+
 }
 section p{
-    font-size: 2rem;
+    font-size: 5rem;
     color: #000000;
     margin-top: 5%;
+
 }
 
 
