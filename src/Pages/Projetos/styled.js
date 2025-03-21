@@ -46,7 +46,7 @@ export const StyledProjetos = styled.main`
     #boneco { width:55%; top: 60%; left: 0%; z-index:9 }
     #poster { width:30%; top: 15%; left: 5%; }
     #cd { width:30%; top: 25%; right: 5%; }
-    #coporosa { width:30%; top: 5%; left: 40%; }
+    #coporosa { width:30%; top: 5%; left: 50%; }
     #copo {width:30%; top: 40%; left: 60%; }
     #jornal {width:25%; top: 40%; left: 25%; }
     #vermelho {width:80%; top: 85%; right: 0%; }

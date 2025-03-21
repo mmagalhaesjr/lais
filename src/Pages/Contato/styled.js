@@ -33,10 +33,23 @@ section p{
     color: #000000;
     margin-top: 5%;
     padding-left: 10%;
-  
-
 }
 
+@media (max-width: 800px) {
+    section{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+    section p{
+        font-size: 2rem;
+        margin-top: 15%;
+        padding-left: 0%; 
+    }
+}
 
 
 `

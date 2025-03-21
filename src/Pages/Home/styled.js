@@ -130,8 +130,14 @@ export const StyledHome = styled.main`
     h1 {
       position: fixed;
       top: 50px;
-      font-size: 5rem;
+      font-size: 3.5rem;
       z-index: 0;
+      
+    }
+
+   #rodape p{
+      font-size: 2rem;
+      margin-bottom: 20%;
     }
     #img1 {
     top: 25%;

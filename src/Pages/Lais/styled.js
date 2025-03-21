@@ -109,6 +109,7 @@ img{
 #sectionTexto{
     width: 100%;
     height: fit-content;
+    margin-bottom: 10%;
 
     display: flex;
     flex-direction: column;
