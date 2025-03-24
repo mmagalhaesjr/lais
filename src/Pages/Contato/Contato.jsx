@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { StyledContato } from "./styled";
 
 export default function Contato() {
+
+    const whatsapp = "https://api.whatsapp.com/send?phone=2498836-1233"
     return (
         <StyledContato>
 
@@ -13,9 +15,13 @@ export default function Contato() {
 
             <section>
 
-                <p>
-                    Telefone: (24) 98836-1233
-                </p>
+
+
+                <Link to={whatsapp} target="_blank" rel="noreferrer" >
+                    <p>
+                        Telefone: (24) 98836-1233
+                    </p>
+                </Link>
 
                 <p>
                     E-mail: lais.sindorf@design.ufjf.br

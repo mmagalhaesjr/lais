@@ -21,16 +21,51 @@ export default function Projetos() {
                 </p>
             </Link>
 
-        <img id="boneco" src={boneco} alt="img" />
-        <img id="poster" src={poster} alt="img" />
-        <img id="cd" src={cd} alt="img" />
-        <img id="coporosa" src={coporosa} alt="img" />
-        <img id="copo" src={copo} alt="img" />
-        <img id="jornal" src={jornal} alt="img" />
-        <img id="vermelho" src={vermelho} alt="img" />
-        <img id="adesivorosa" src={adesivorosa} alt="img" />
-        <img id="adesivoroxo" src={adesivoroxo} alt="img" />
-          
+            <Link to={''}>
+                <img id="boneco" src={boneco} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/1jVm9vh4jhX0BMy8vfGCH3HYzu4SJlKXw/view?usp=sharing'} target="_blank">
+                <img id="poster" src={poster} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/1Lh2lE6fkzEBwpqY3FBpjjF1v_5ucNt0Y/view?usp=sharing'} target="_blank">
+                <img id="cd" src={cd} alt="img" />
+            </Link>
+
+            <Link to={''}>
+                <img id="coporosa" src={coporosa} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/1nDeNPdxLrO0cFKegJaPUY1Dp8g_iV7kJ/view?usp=sharing'} target="_blank">
+                <img id="copo" src={copo} alt="img" />
+            </Link>
+
+            <Link to={''}>
+                <img id="jornal" src={jornal} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/12EwCwsYUKuDEKLeGFe3oVgzQqWjFuyD1/view?usp=sharing'} target="_blank">
+                <img id="vermelho" src={vermelho} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/1MQmbWKwy6M9mjwS4jUhIGratpKDqWhoS/view?usp=sharing'} target="_blank">
+                <img id="adesivorosa" src={adesivorosa} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/1MQmbWKwy6M9mjwS4jUhIGratpKDqWhoS/view?usp=sharing'} target="_blank">
+                <img id="adesivoroxo" src={adesivoroxo} alt="img" />
+            </Link>
+
+
+
+
+
+
+
+
+
+
 
         </StyledProjetos>
     )
