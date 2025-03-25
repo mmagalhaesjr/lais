@@ -24,7 +24,7 @@ export default function Contato() {
                 </Link>
 
                 <p>
-                    E-mail: lais.sindorf@design.ufjf.br
+                    E-mail: laissindorfdesign@gmail.com
                 </p>
 
                 <Link to={'https://www.linkedin.com/in/lais-sindorf-8a11331a2/'} target="blank">
