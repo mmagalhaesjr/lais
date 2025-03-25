@@ -23,12 +23,26 @@ export default function Home() {
             </Link>
 
             <section>
-                <img id="img1" src={foto1} alt="img" />
-                <img id="img2" src={foto2} alt="img" />
-                <img id="img3" src={foto3} alt="img" />
-                <img id="img4" src={foto4} alt="img" />
-                <img id="img5" src={foto5} alt="img" />
-                <img id="img6" src={foto6} alt="img" />
+
+                <Link to={'/projetos'} >
+                    <img id="img1" src={foto1} alt="img" />
+                </Link>
+                <Link to={'/projetos'} >
+                    <img id="img2" src={foto2} alt="img" />
+                </Link>
+                <Link to={'/projetos'} >
+                    <img id="img3" src={foto3} alt="img" />
+                </Link>
+                <Link to={'/projetos'} >
+                    <img id="img4" src={foto4} alt="img" />
+                </Link>
+                <Link to={'/projetos'} >
+                    <img id="img5" src={foto5} alt="img" />
+                </Link>
+                <Link to={'/projetos'} >
+                    <img id="img6" src={foto6} alt="img" />
+                </Link>
+
             </section>
 
 
