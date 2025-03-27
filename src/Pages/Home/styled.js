@@ -127,6 +127,8 @@ export const StyledHome = styled.main`
  
 
   @media (max-width: 800px) {
+
+    border: solid 5px red;
     h1 {
       position: fixed;
       top: 50px;
@@ -134,6 +136,9 @@ export const StyledHome = styled.main`
       z-index: 0;
       
     }
+   #rodape{
+    margin-bottom: 20%;
+   }
 
    #rodape p{
       font-size: 2rem;
