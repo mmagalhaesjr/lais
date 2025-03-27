@@ -21,7 +21,7 @@ export default function Projetos() {
                 </p>
             </Link>
 
-            <Link to={''}>
+            <Link to={'https://drive.google.com/file/d/1XStk2wqRw_o0nl24EycdjM7PbLyL9NM2/view'}>
                 <img id="boneco" src={boneco} alt="img" />
             </Link>
 

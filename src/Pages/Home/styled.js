@@ -127,8 +127,7 @@ export const StyledHome = styled.main`
  
 
   @media (max-width: 800px) {
-
-    border: solid 5px red;
+  
     h1 {
       position: fixed;
       top: 50px;
@@ -137,17 +136,16 @@ export const StyledHome = styled.main`
       
     }
    #rodape{
-    margin-bottom: 5%;
+    margin-bottom: 0%;
    }
 
    #rodape p{
       font-size: 2rem;
-      margin-bottom: 20%;
     }
     #img1 {
     top: 25%;
-    left: 35%;
-    width: 30%;
+    left: 40%;
+    width: 35%;
     z-index: 1;
     animation: aparecer 0s 1s forwards;
   }
@@ -155,7 +153,7 @@ export const StyledHome = styled.main`
   #img2 {
     top: 30%;
     left: 10%;
-    width: 30%;
+    width: 40%;
     z-index: 2;
     animation: aparecer 0s 2s forwards;
   }
@@ -163,31 +161,31 @@ export const StyledHome = styled.main`
   #img3 {
     top: 50%;
     left: 35%;
-    width: 30%;
+    width: 40%;
     z-index: 3;
     animation: aparecer 0s 3s forwards;
   }
 
   #img4 {
     top: 40%;
-    left: 50%;
-    width: 30%;
+    left: 55%;
+    width: 40%;
     z-index: 6;
     animation: aparecer 0s 4s forwards;
   }
 
   #img5 {
     top: 50%;
-    left: 20%;
-    width: 30%;
+    left: 10%;
+    width: 40%;
     z-index: 7;
     animation: aparecer 0s 5s forwards;
   }
 
   #img6 {
-    top: 50%;
-    left: 55%;
-    width: 40%;
+    top: 60%;
+    left: 50%;
+    width: 50%;
     z-index: 6;
     animation: aparecer 0s 6s forwards;
   }
