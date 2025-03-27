@@ -137,7 +137,7 @@ export const StyledHome = styled.main`
       
     }
    #rodape{
-    margin-bottom: 20%;
+    margin-bottom: 5%;
    }
 
    #rodape p{
