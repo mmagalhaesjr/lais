@@ -26,15 +26,17 @@ export const StyledProjetos = styled.main`
     }
 
   
-    #boneco { width:30%; top: 70%; left: 10%; }
+    #boneco { width:30%; top: 70%; left: 3%; }
     #poster { width:15%; top: 15%; left: 5%; }
     #cd { width:15%; top: 10%; right: 5%; }
     #coporosa { width:15%; top: 5%; left: 40%; }
     #copo {width:20%; top: 30%; left: 50%; }
     #jornal {width:15%; top: 30%; left: 25%; }
-    #vermelho {width:35%; top: 95%; right: 15%; }
     #adesivorosa {width:15%; top: 55%; right: 5%; }
     #adesivoroxo {width:15%; top: 65%; right: 1%; }
+    #cartao {width:25%; top: 95%; right: 40%; }
+    #vermelho {width:35%; top: 95%; right: 0%; }
+
 
     img:hover {
         transform: scale(1.1);
@@ -52,5 +54,6 @@ export const StyledProjetos = styled.main`
     #vermelho {width:80%; top: 85%; right: 0%; }
     #adesivorosa {width:25%; top: 63%; right: 5%; }
     #adesivoroxo {width:25%; top: 68%; right: 1%; }
+    #cartao {width:40%; top: 95%; right: 40%; }
     }
 `;

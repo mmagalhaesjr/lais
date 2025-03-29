@@ -10,6 +10,7 @@ import jornal from '../../assets/inicial/7.png'
 import vermelho from '../../assets/inicial/9.png'
 import adesivorosa from '../../assets/inicial/10.png'
 import adesivoroxo from '../../assets/inicial/11.png'
+import cartao from '../../assets/inicial/cartao.png'
 
 export default function Projetos() {
     return (
@@ -33,7 +34,7 @@ export default function Projetos() {
                 <img id="cd" src={cd} alt="img" />
             </Link>
 
-            <Link to={''}>
+            <Link to={'https://drive.google.com/file/d/1Yg74rb-LmZD59i6cYW06Aa9TDwF2WJRq/view'}>
                 <img id="coporosa" src={coporosa} alt="img" />
             </Link>
 
@@ -41,7 +42,7 @@ export default function Projetos() {
                 <img id="copo" src={copo} alt="img" />
             </Link>
 
-            <Link to={''}>
+            <Link to={'https://drive.google.com/file/d/1gc4hK0tolZFl78z5Htgpvo98_MeCHeAH/view'}>
                 <img id="jornal" src={jornal} alt="img" />
             </Link>
 
@@ -55,6 +56,10 @@ export default function Projetos() {
 
             <Link to={'https://drive.google.com/file/d/1MQmbWKwy6M9mjwS4jUhIGratpKDqWhoS/view?usp=sharing'} target="_blank">
                 <img id="adesivoroxo" src={adesivoroxo} alt="img" />
+            </Link>
+
+            <Link to={'https://drive.google.com/file/d/16gxTmeiC3ISviQP4cbu_xdYYfVnOhHBU/view?usp=sharing'} target="_blank">
+                <img id="cartao" src={cartao} alt="img" />
             </Link>
 
 
