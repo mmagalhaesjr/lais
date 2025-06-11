@@ -11,6 +11,7 @@ import vermelho from '../../assets/inicial/9.png'
 import adesivorosa from '../../assets/inicial/10.png'
 import adesivoroxo from '../../assets/inicial/11.png'
 import cartao from '../../assets/inicial/cartao.png'
+import cardapio from '../../assets/inicial/cardapio.png'
 
 export default function Projetos() {
     return (
@@ -63,6 +64,9 @@ export default function Projetos() {
             </Link>
 
 
+            <Link to={'https://drive.google.com/file/d/1pceLkhwOWUs-SPqDT_qkF3nPeJkEMYlx/view?usp=sharing'} target="_blank">
+                <img id="cardapio" src={cardapio} alt="img" />
+            </Link>
 
 
 
