@@ -12,6 +12,7 @@ import adesivorosa from '../../assets/inicial/10.png'
 import adesivoroxo from '../../assets/inicial/11.png'
 import cartao from '../../assets/inicial/cartao.png'
 import cardapio from '../../assets/inicial/cardapio.png'
+import cardapio2 from '../../assets/inicial/cardapio2.png'
 
 export default function Projetos() {
     return (
@@ -66,6 +67,10 @@ export default function Projetos() {
 
             <Link to={'https://drive.google.com/file/d/1pceLkhwOWUs-SPqDT_qkF3nPeJkEMYlx/view?usp=sharing'} target="_blank">
                 <img id="cardapio" src={cardapio} alt="img" />
+            </Link>
+
+              <Link to={'https://drive.google.com/file/d/1b6OQ4N0pnmTMx-r1du_WSSR9BaCqylJf/view?usp=sharing'} target="_blank">
+                <img id="cardapio2" src={cardapio2} alt="img" />
             </Link>
 
 

@@ -10,7 +10,9 @@ export const StyledProjetos = styled.main`
     position: relative;
     overflow: hidden;
     overflow-y: auto;
-    padding: 20px;
+    padding: 30px;
+  
+  
 
     #voltar {
         position: absolute;
@@ -37,6 +39,7 @@ export const StyledProjetos = styled.main`
     #cartao {width:25%; top: 105%; right: 40%; }
     #vermelho {width:35%; top: 95%; right: 0%; }
     #cardapio{width:30%; top: 130%; right: 10%;}
+    #cardapio2{width:20%; top: 160%; left: 20%;}
 
 
     img:hover {
@@ -57,5 +60,6 @@ export const StyledProjetos = styled.main`
     #adesivoroxo {width:25%; top: 68%; right: 1%; }
     #cartao {width:40%; top: 95%; right: 60%; }
     #cardapio{width:50%; top: 100%; right: 5%;}
+      #cardapio2{width:35%; top: 115%; left: 10%;}
     }
 `;
